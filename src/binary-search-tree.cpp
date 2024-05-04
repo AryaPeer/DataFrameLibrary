@@ -1,4 +1,4 @@
-#include "../headers/binary-search-tree.h"
+#include "binary-search-tree.h"
 
 #include <iostream>
 #include <queue>

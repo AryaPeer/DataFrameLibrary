@@ -1,4 +1,4 @@
-#include "../headers/dynamic-stack.h"
+#include "dynamic-stack.h"
 #include <iostream>
 
 

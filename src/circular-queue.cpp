@@ -1,4 +1,4 @@
-#include "../headers/circular-queue.h"
+#include "circular-queue.h"
 #include <iostream>
 
 const CircularQueue::QueueItem CircularQueue::EMPTY_QUEUE = -999;

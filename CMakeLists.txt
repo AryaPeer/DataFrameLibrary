@@ -10,7 +10,12 @@ include_directories(headers)
 
 # Add library source files
 set(SOURCES
-    
+    src/avl-tree.cpp
+    src/binary-search-tree.cpp
+    src/circular-queue.cpp
+    src/doubly-linked-list.cpp
+    src/dynamic-stack.cpp
+    src/sequential-list.cpp
 )
 
 # Create the library

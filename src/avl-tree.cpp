@@ -1,4 +1,4 @@
-#include "../headers/avl-tree.h";
+#include "avl-tree.h";
 #include <cmath>
 
 bool AVLTree::insert(DataType val) {
