@@ -1,5 +1,5 @@
-#ifndef LAB2_DYNAMIC_STACK_H
-#define LAB2_DYNAMIC_STACK_H
+#ifndef DF_DS_LIBRARY_DYNAMIC_STACK_H
+#define DF_DS_LIBRARY_DYNAMIC_STACK_H
 
 class DynamicStack {
 public:
@@ -85,4 +85,4 @@ public:
     void print() const;
 };
 
-#endif  // LAB2_DYNAMIC_STACK_H
+#endif  // DF_DS_LIBRARY_DYNAMIC_STACK_H

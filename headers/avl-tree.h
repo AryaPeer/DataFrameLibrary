@@ -1,5 +1,5 @@
-#ifndef LAB3_AVL_TREE_H
-#define LAB3_AVL_TREE_H
+#ifndef DF_DS_LIBRARY_AVL_TREE_H
+#define DF_DS_LIBRARY_AVL_TREE_H
 
 #include "binary-search-tree.h"
 
@@ -23,5 +23,5 @@ public:
     void removeBalance(Node *node, Node *nodeParent);
 };
 
-#endif  // LAB3_AVL_TREE_H
+#endif  // DF_DS_LIBRARY_AVL_TREE_H
 

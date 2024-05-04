@@ -1,5 +1,5 @@
-#ifndef LAB3_BINARY_SEARCH_TREE_H
-#define LAB3_BINARY_SEARCH_TREE_H
+#ifndef DF_DS_LIBRARY_BINARY_SEARCH_TREE_H
+#define DF_DS_LIBRARY_BINARY_SEARCH_TREE_H
 
 class BinarySearchTree {
 public:
@@ -86,4 +86,4 @@ public:
     void updateNodeBalance(Node* n);
 };
 
-#endif  // LAB3_BINARY_SEARCH_TREE_H
+#endif  // DF_DS_LIBRARY_BINARY_SEARCH_TREE_H

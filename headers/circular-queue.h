@@ -1,5 +1,5 @@
-#ifndef LAB2_CIRCULAR_QUEUE_H
-#define LAB2_CIRCULAR_QUEUE_H
+#ifndef DF_DS_LIBRARY_CIRCULAR_QUEUE_H
+#define DF_DS_LIBRARY_CIRCULAR_QUEUE_H
 
 class CircularQueue {
 public:
@@ -87,4 +87,4 @@ public:
     void print() const;
 };
 
-#endif  // LAB2_CIRCULAR_QUEUE_H
+#endif  // DF_DS_LIBRARY_CIRCULAR_QUEUE_H
