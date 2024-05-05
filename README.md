@@ -7,12 +7,12 @@ To test that the library works run:
 bash run.sh
 ```
 
-Generate an object file of your cpp file by changing main.cpp and main.o in eval.sh:
+Generate an object file of your cpp file by changing main.cpp and main.o in run.sh:
 
 ```bash
 g++ -c src/your_file.cpp -o bin/your_file.o
 ```
-and then statically link it by changing main.o in eval.sh too:
+and then statically link it by changing main.o in run.sh too:
 
 ```bash
 g++ bin/your_file.o -Lbin/static -l:libdfds.a -o bin/statically-linked
