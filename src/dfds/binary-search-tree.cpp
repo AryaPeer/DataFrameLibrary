@@ -374,3 +374,5 @@ void BinarySearchTree::updateNodeBalance(Node* n) {
     updateNodeBalance(n->left);
     updateNodeBalance(n->right);
 }
+
+//tested

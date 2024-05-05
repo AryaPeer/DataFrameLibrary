@@ -192,3 +192,5 @@ int AVLTree::getLargerHeight(Node* curr) {
         return rightHeight;
     }
 }
+
+//Tested
