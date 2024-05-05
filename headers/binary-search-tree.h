@@ -17,10 +17,6 @@ public:
     };
 
 private:
-    friend class BinarySearchTreeTest;
-    friend class AVLTreeTest;
-
-    // Optional function that recursively gets the maximum depth for a given node.
     int getNodeDepth(Node* n) const;
 
     // Pointer to the root node of the tree.

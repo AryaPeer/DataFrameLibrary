@@ -9,9 +9,6 @@ public:
 	typedef int DataType;
 
 private:	
-	// Befriend so tests have access to variables.
-	friend class SequentialListTest;
-
 
 	// MEMBER VARIABLES
 	// A pointer to the block of memory allocated to store the list data.

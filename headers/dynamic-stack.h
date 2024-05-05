@@ -11,9 +11,6 @@ public:
 
 
 private:
-    // Befriend so tests have access to variables.
-    friend class DynamicStackTest;
-
 
     // MEMBER VARIABLES
     // An array of stack items.

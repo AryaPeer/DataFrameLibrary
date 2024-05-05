@@ -10,10 +10,6 @@ public:
 
 
 private:
-    // Befriend so tests have access to variables.
-	friend class DoublyLinkedListTest;
- 
-
     // This type of list can basically grow as large as we want it to,
     // so we'll just pick an arbitrary large value as the capacity for
     // all lists of this type.

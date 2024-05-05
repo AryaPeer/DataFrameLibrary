@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(df_ds_library)
+project(df_ds)
 
 # Enable C++11 support
 set(CMAKE_CXX_STANDARD 11)
@@ -19,4 +19,4 @@ set(SOURCES
 )
 
 # Create the library
-add_library(df_ds_library ${SOURCES})
+add_library(df_ds STATIC ${SOURCES})

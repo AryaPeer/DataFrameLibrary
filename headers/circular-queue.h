@@ -11,9 +11,6 @@ public:
 
 
 private:
-    // Befriend so tests have access to variables.
-    friend class CircularQueueTest;
-
     // MEMBER VARIABLES
     // An array of queue items.
     QueueItem* items_;
