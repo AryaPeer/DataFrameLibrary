@@ -1,16 +1,8 @@
-#include "dfds/doubly-linked-list.h"
+// #include "dfds/doubly-linked-list.h" example of datastructure include
 
 int main() {
     // Create a DoublyLinkedList object
-    DoublyLinkedList list;
-
-    // Insert some elements into the list
-    list.insert_back(1);
-    list.insert_back(2);
-    list.insert_back(3);
-
-    // Print the elements in the list
-    list.print();
+    // DoublyLinkedList list; Example creation of Data Structure/Object
 
     return 0;
 }

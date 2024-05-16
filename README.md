@@ -1,19 +1,19 @@
 # DF_DS_LIB
-C++ library that contains an implementation of Pandas DataFrames + an implementation of a few Data Structures.
 
-To test that the library works run:
+DF_DS_LIB is a C++ library that includes an implementation of Pandas DataFrames along with several other data structures.
 
-```bash
-bash run.sh
-```
+## Getting Started
 
-Generate an object file of your cpp file by changing main.cpp and main.o in run.sh:
+To get started, follow these steps:
 
-```bash
-g++ -c src/your_file.cpp -o bin/your_file.o
-```
-and then statically link it by changing main.o in run.sh too:
+1. **Clone the Repository**: Clone this repository to your local machine.
 
-```bash
-g++ bin/your_file.o -Lbin/static -l:libdfds.a -o bin/statically-linked
-```
+2. **Navigate to the Source Folder**: Go into the `src` folder of the cloned repository.
+
+3. **Implement Your Program**: Modify the `main.cpp` file in the `src` folder to implement your desired program. You can include the provided data structure library to use its functionalities.
+
+4. **Run the Bash Script**: This script will compile the cpp files into object's and run the main.cpp that calls them.
+
+    ```bash
+    bash run.sh
+    ```
