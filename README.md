@@ -17,3 +17,8 @@ To get started, follow these steps:
     ```bash
     bash run.sh
     ```
+
+5. **Execute the Program**: Run the program
+    ```bash
+    ./bin/execute_program 
+    ```
