@@ -1,4 +1,4 @@
-// #include "dfds/doubly-linked-list.h" example of datastructure include
+//#include "dfds/includes/doubly-linked-list.h" //Example of including a header file for a Data Structure
 
 int main() {
     // Create a DoublyLinkedList object
