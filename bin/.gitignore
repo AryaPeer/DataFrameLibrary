@@ -1,2 +1,2 @@
 *.o
-statically-linked
+execute_program
