@@ -10,8 +10,8 @@ g++ -c src/dfds/dynamic-stack.cpp -o bin/static/dynamic-stack.o
 g++ -c src/dfds/sequential-list.cpp -o bin/static/sequential-list.o
 g++ -c src/dfds/dataframe.cpp -o bin/static/dataframe.o
 
-ar rcs bin/static/libdfds.a bin/static/binary-search-tree.o bin/static/avl-tree.o bin/static/circular-queue.o bin/static/doubly-linked-list.o bin/static/dynamic-stack.o bin/static/sequential-list.o bin/static/dataframe.o
+ar rcs bin/static/dfdsLib.a bin/static/binary-search-tree.o bin/static/avl-tree.o bin/static/circular-queue.o bin/static/doubly-linked-list.o bin/static/dynamic-stack.o bin/static/sequential-list.o bin/static/dataframe.o
 
-g++ bin/main.o -Lbin/static -l:libdfds.a -o bin/execute_program
+g++ bin/main.o -Lbin/static -l:dfdsLib.a -o bin/execute_program
 
-# ./bin/execute_program - Run this to execute the program
+echo "Compilation complete. Run ./bin/execute_program to execute the program."
