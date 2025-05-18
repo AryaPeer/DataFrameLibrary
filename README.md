@@ -1,80 +1,77 @@
-# DF_DS_LIB
+# DataFrameLibrary
 
-A comprehensive C++ library featuring a Pandas-like DataFrame implementation along with efficient data structures, providing template-based implementations for type flexibility and thread-safe operations.
+A modern, lightweight C++ library that brings Pandas-style DataFrame capabilities to C++ developers. Designed for flexibility and performance, `DataFrameLibrary` enables intuitive data manipulation, statistical analysis, and CSV I/O operations using standard C++ templates and STL containers.
 
 ## Features
 
-### Data Structures
-- Trees: Binary Search Tree and AVL Tree implementations
-- Lists: Doubly Linked List and Sequential List
-- Stack: Dynamic stack with auto-resizing
-- Queue: Circular queue implementation
+### Core DataFrame Functionality
 
-### DataFrame Implementation
-- DataFrame: Feature-rich Pandas-like implementation with statistical operations
-- CSV Support: Read and write operations for data I/O
-- Column Operations: Filtering, sorting, and arithmetic operations
-- Statistics: Mean, sum, max, min calculations
-- Missing Data: Handling of NA values
+* **Intuitive Column Operations**: Add, access, sort, and filter columns with ease.
+* **CSV Support**: Read and write DataFrames to CSV files.
+* **Missing Data Handling**: Detect and manage NA/null entries.
+* **Mathematical Operations**: Element-wise arithmetic, column aggregations (sum, mean, min, max).
+* **Indexing**: Basic row indexing and label-based lookups.
+* **Extensibility**: Modular architecture for adding custom transformations or data types.
 
 ## Dependencies
 
-- C++11 or later
-- Standard Template Library (STL)
+* C++17 or later
+* Standard Template Library (STL)
 
 ## Installation
 
 1. **Clone the Repository**
+
    ```bash
-   git clone https://github.com/AryaPeer/DF_DS_LIB.git
-   cd DF_DS_LIB
+   git clone https://github.com/AryaPeer/DataFrameLibrary.git
+   cd DataFrameLibrary
    ```
 
 2. **Build the Library**
+
    ```bash
-   bash run.sh
+   bash build.sh
    ```
 
 ## Usage
 
-1. **Navigate to main.cpp under src**
+1. **Navigate to `main.cpp`**
 
-2. **Edit File To Include Required Headers**
+2. **Include Required Headers**
+
    ```cpp
-   #include "dfds/includes/dataframe.h"
-   #include "dfds/includes/binary-search-tree.h"
-   // ... other headers as needed
+   #include "dataframe.hpp"
+   #include "index.hpp"
+   #include "io.hpp"
+   #include "math.hpp"
+   #include "stats.hpp"
    ```
 
-3. **Implement Whatever You Want (Basic Example Below)**
-   ```cpp
-   #include "dfds/includes/dataframe.h"
-   
-   int main() {
-       DataFrame df;
-       
-       // Add data
-       df.addColumn("numbers", std::vector<int>{1, 2, 3, 4, 5});
-       df.addColumn("names", std::vector<std::string>{"A", "B", "C", "D", "E"});
-       
-       // Display first 5 rows
-       df.display();
-       
-       return 0;
-   }
-   ```
+3. **Make the Changes you Want**
 
 ## Project Structure
 
 ```
-DF_DS_LIB/
+DataFrameLibrary/
+├── include/
+│   └── df/
+│       ├── dataframe.hpp       # Main DataFrame class
+│       ├── index.hpp           # Indexing support
+│       ├── io.hpp              # CSV read/write support
+│       ├── math.hpp            # Arithmetic operations
+│       ├── stats.hpp           # Statistical functions
+│       └── detail/
+│           └── csv_parser.hpp  # Internal CSV parser
 ├── src/
-│   ├── dfds/
-│   │   ├── includes/      # Header files
-│   │   └── ...           # Implementation files
-│   └── main.cpp
-├── bin/
-│   └── static/         # Compiled objects and libraries
-├── run.sh             # Build script
+│   └── df/
+│       ├── dataframe.cpp
+│       ├── index.cpp
+│       ├── io.cpp
+│       ├── math.cpp
+│       ├── stats.cpp
+│       └── detail/
+│           └── csv_parser.cpp
+├── main.cpp                    # Demo
+├── build.sh                    # Build script
 └── README.md
 ```
