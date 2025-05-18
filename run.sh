@@ -1,11 +1,13 @@
 #!/bin/bash
 
-g++ -c src/main.cpp -o bin/main.o
+# EXTREMELY OUTDATED -> WILL USE FOR REWRITE
 
-g++ -c src/dfds/dataframe.cpp -o bin/static/dataframe.o
+# g++ -c src/main.cpp -o bin/main.o
 
-ar rcs bin/static/dataframeLib.a bin/static/dataframe.o
+# g++ -c src/dfds/dataframe.cpp -o bin/static/dataframe.o
 
-g++ bin/main.o -Lbin/static -l:dataframeLib.a -o bin/execute_program
+# ar rcs bin/static/dataframeLib.a bin/static/dataframe.o
 
-echo "Compilation complete. Run ./bin/execute_program to execute the program."
+# g++ bin/main.o -Lbin/static -l:dataframeLib.a -o bin/execute_program
+
+# echo "Compilation complete. Run ./bin/execute_program to execute the program."
